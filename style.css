@@ -1,5 +1,5 @@
 :root {
-    --calcBody: rgb(59,59,59);
+    --calcBody: rgb(60,60,60);
     --calcDisplay: grey;
     --calcFrame: rgb(60,60,60);
 		--operations: rgb(10, 150, 150);
@@ -42,9 +42,9 @@
 		margin: 0.8em 2em;
 		padding: .5em 1.2em .5em 1.2em;
 		background-color: var(--operations);
-		border-radius: 350px;
+		border-radius: 3vmin;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-		font-size: 1vmin;
+		font-size: 2.5vmin;
 		align-items: center;
 }
 
