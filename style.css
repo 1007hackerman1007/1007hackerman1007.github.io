@@ -48,7 +48,7 @@ body{
 .clear,
 .button {
     height: 7vh;
-    width: 7vw;
+    width: 10vmin;
 		margin: 0.8em 2em;
 		line-height: 7vh;
 		background-color: var(--operations);
@@ -61,16 +61,15 @@ body{
 .clear {
   background-color: rgb(220, 50, 50);
     height: 7vh;
-    width: 10vw;
+    width: 12vmin;
     line-height: 7vh;
 }
 
 .clear:hover,
 .button:hover {
 	color: aliceblue;
-	scale: 0.98;
+	scale: 1.1;
 }
-
 .number {
 	background-color: var(--numerical);
 }
