@@ -20,7 +20,7 @@ body{
   border-radius: 4vmin;
   border:solid black .5vmin;
   padding: 2.5vmin 2.5vmax;
-}
+} 
 
 .separator {
   display: inline-grid;
@@ -34,6 +34,7 @@ body{
     border-radius: 5vmin;
     font-size: 13.75vmin;
     line-height:13.75vmin;
+    text-align: center;
     border:solid black .5vmin;
 }
 
