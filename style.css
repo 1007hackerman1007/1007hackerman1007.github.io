@@ -5,14 +5,18 @@
 		--operations: rgb(10, 150, 150);
 		--numerical: rgb(10, 120, 120);
 		--equals: rgb(10, 180, 180);
+    --backColor : darkorchid;
 
 }
-
+body{
+  background-color: var(--backColor);
+}
 .cBody {
-    width: 90vw;
-    height: 90vh;
+    width: 90vmin;
+    height: 80vmax;
     background-color: var(--calcBody);
-    border-radius: 6px;
+    border-radius: 4vmin;
+    border:solid black .5vmin;
     padding: 1em 1em;
 }
 
@@ -22,11 +26,12 @@
 }
 
 .cDisplay {
-    width: 100%;
-    height: 30%;
+    width: 97.5%;
+    height: 27.5%;
     background-color: var(--calcDisplay);
-    border-radius: 1em;
+    border-radius: 5vmin;
     font-size: 5em;
+    border:solid black .5vmin;
 }
 
 .cFrame {
