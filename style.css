@@ -10,14 +10,17 @@
 }
 body{
   background-color: var(--backColor);
+
 }
-.cBody {
-    width: 90vmin;
-    height: 80vmax;
-    background-color: var(--calcBody);
-    border-radius: 4vmin;
-    border:solid black .5vmin;
-    padding: 1em 1em;
+.cBody {  
+  color:black;
+  font-family:cursive;
+  width: min-content;
+  height: min-content;
+  background-color: var(--calcBody);
+  border-radius: 4vmin;
+  border:solid black .5vmin;
+  padding: 1em 1em;
 }
 
 .separator {
@@ -26,8 +29,8 @@ body{
 }
 
 .cDisplay {
-    width: 97.5%;
-    height: 27.5%;
+    width: 65vw;
+    height: 27.5vh;
     background-color: var(--calcDisplay);
     border-radius: 5vmin;
     font-size: 5em;
@@ -44,8 +47,10 @@ body{
 
 .clear,
 .button {
+    height: 7vh;
+    width: 7vw;
 		margin: 0.8em 2em;
-		padding: .5em 1.2em .5em 1.2em;
+		line-height: 7vh;
 		background-color: var(--operations);
 		border-radius: 3vmin;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
@@ -55,9 +60,9 @@ body{
 
 .clear {
   background-color: rgb(220, 50, 50);
-  margin-top: 1em;
-  width: min-content;
-  height: min-content;
+    height: 7vh;
+    width: 10vw;
+    line-height: 7vh;
 }
 
 .clear:hover,
