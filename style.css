@@ -29,8 +29,8 @@ body{
 }
 
 .cDisplay {
-    width: 65vw;
-    height: 27.5vh;
+    width: 65vmax;
+    height: 27.5vmin;
     background-color: var(--calcDisplay);
     border-radius: 5vmin;
     font-size: 5em;
