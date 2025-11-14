@@ -1,6 +1,6 @@
 var operations = document.getElementById("operations")
 var result = document.getElementById("result")
-var sound = new Audio("digtita.mp3");
+var sound = new Audio("digitar.mp3");
 
 
 function clickHandler(key) {
