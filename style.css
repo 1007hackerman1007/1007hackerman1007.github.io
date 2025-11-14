@@ -1,16 +1,15 @@
 :root {
-    --calcBody: rgb(60,60,60);
-    --calcDisplay: grey;
-    --calcFrame: rgb(60,60,60);
-		--operations: rgb(10, 150, 150);
-		--numerical: rgb(10, 120, 120);
-		--equals: rgb(10, 180, 180);
-    --backColor : darkorchid;
+    --calcBody: rgb(82, 82, 82);
+    --calcDisplay: rgb(173, 173, 173);
+    --calcFrame: rgb(82, 82, 82);
+		--operations: rgb(20, 196, 196);
+		--numerical: rgb(17, 145, 145);
+		--equals: rgb(0, 255, 255);
+    --backColor : rgb(180, 57, 241);
 
 }
 body{
   background-color: var(--backColor);
-
 }
 .cBody {  
   color:black;
@@ -20,7 +19,7 @@ body{
   background-color: var(--calcBody);
   border-radius: 4vmin;
   border:solid black .5vmin;
-  padding: 1em 1em;
+  padding: 2.5vmin 2.5vmax;
 }
 
 .separator {
@@ -33,13 +32,14 @@ body{
     height: 27.5vmin;
     background-color: var(--calcDisplay);
     border-radius: 5vmin;
-    font-size: 5em;
+    font-size: 13.75vmin;
+    line-height:13.75vmin;
     border:solid black .5vmin;
 }
 
 .cFrame {
     display: inline-grid;
-		padding: 1em;
+		padding: 1vmin;
     grid-template-columns: auto auto auto auto;
     background-color: var(--calcFrame);
 		justify-items: center;
