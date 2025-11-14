@@ -1,5 +1,7 @@
 var operations = document.getElementById("operations")
 var result = document.getElementById("result")
+var sound = new Audio("digita.mp3");
+
 
 function clickHandler(key) {
     if (key === "=") {
@@ -8,6 +10,10 @@ function clickHandler(key) {
         addSymbol(key)
     }
 }
+
+function som() {
+    sound.play();
+  }
 
 function calculate() {
     let operation = operations.innerHTML
